@@ -44,3 +44,20 @@ and (both or all), or (either needs to be met), not, in, not in
 # monarchs [-1,1] = 1
 # monarchs [1:2] = ("Elizabeth", 2)
 
+# x = 2 
+# y = 3 
+# var = x < y 
+# print(var)
+
+# x = 5 
+# print((3+x) <7)
+
+state = "CA"
+states = ["MD", "VA", "WV", "DE"]
+
+is_in_list = state in states 
+
+# print(is_in_list)
+# print(not(is_in_list))
+# print(not(is_in_list) and "VA" in states)
+print(not(not(is_in_list) and "VA" in states))
