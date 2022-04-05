@@ -278,4 +278,3 @@ cart = []
 
 if cart:
     empty():
-    
