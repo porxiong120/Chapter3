@@ -140,11 +140,52 @@
 #     i += 1
 # print("In ", str(i), " years you will have a million dollars.")
 
-list1 = []
-while True:
-    num = eval(input("Enter a nonnegative nubmer: "))
-    if num == -1:
-        break 
-    list1.append(num)
+# list1 = []
+# while True:
+#     num = eval(input("Enter a nonnegative nubmer: "))
+#     if num == -1:
+#         break 
+#     list1.append(num)
 
-print(list1)
+# print(list1)
+
+# 3.3 - example 7
+# list1 = ["one", 23, 17.5, "two", 33, 22.1, 242, "three"]
+# i = 0
+# foundFlag = False
+# while i < len(list1): 
+#     x = list1[i]
+#     i += 1
+#     if not isinstance(x, int):
+#         continue
+#     if x % 11 == 0:
+#         foundFlag = True 
+#         print(x, "is the first int that is divisible by 11.")
+#         break 
+# if not foundFlag:
+#     print("There is no int in the list that is divisible by 11.")
+
+
+# example 8 
+# print("Enter a number from the menu to obtain a fact")
+# print("about the United States or to exit the program.\n")
+# print("1. Capital")
+# print("2. National Bird")
+# print("3. National Flower")
+# print("4. Quit\n")
+# while True: 
+#     num = int(input("Make a selection from the menu: "))
+#     if num == 1:
+#         print("Washington, DC is the capital of the United States.")
+#     elif num == 2:
+#          print("The American Bald Eagle is the national bird.")
+#     elif num == 3:
+#          print("The Rose is the national flower.")
+#     elif num == 4:
+#         break
+
+# warning, do not uncomment
+# i = 0 
+# while True: 
+#     i += 1 
+#     print("{} This is an infinite loop.".format(str(i)))
